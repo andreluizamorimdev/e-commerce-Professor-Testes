@@ -5,6 +5,11 @@ import Carrinho from '../Pages/Carrinho';
 import mock from '../Mock/mock_carrinho.json'
 import { BrowserRouter } from 'react-router-dom';
 
-test('', () => {
-  render()
-})
+test('The page Carrinho should appear', () => {
+  render(
+    <BrowserRouter>
+    
+    <Carrinho carrinho={[{name: '', images: '', price: 0}]} />
+    </BrowserRouter>
+  );
+});
