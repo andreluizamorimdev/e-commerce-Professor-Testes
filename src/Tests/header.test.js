@@ -4,6 +4,10 @@ import Header from "../Components/Header";
 import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
 
-test('', () => {
-  render()
+test('The Header component should appear', () => {
+  render(
+    <BrowserRouter>
+      <Header/>
+    </BrowserRouter>
+  )
 })

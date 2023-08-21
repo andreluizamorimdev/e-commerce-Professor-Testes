@@ -37,6 +37,7 @@ function Produtos({ handleCarrinho, carrinho }) {
                   }}
                   className="cardProduto"
                   onClick={() => handleCarrinho(e)}
+                  data-testid='produtos'
                 >
                   <img alt={e.description} src={e.images} />
                   <p>{e.name}</p>
